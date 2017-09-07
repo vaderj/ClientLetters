@@ -1,0 +1,3 @@
+C:\Users\vader\Documents\Visual Studio 2017\Projects\SharePointAddIn1\SharePointAddIn1\bin\Release\SharePointAddIn1.pdb
+C:\Users\vader\Documents\Visual Studio 2017\Projects\SharePointAddIn1\SharePointAddIn1\obj\Release\SharePointAddIn1.dll
+C:\Users\vader\Documents\Visual Studio 2017\Projects\SharePointAddIn1\SharePointAddIn1\obj\Release\SharePointAddIn1.pdb

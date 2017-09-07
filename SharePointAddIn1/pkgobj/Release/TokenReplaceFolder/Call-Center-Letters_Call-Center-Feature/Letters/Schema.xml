@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Letters" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Letters" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+	<MetaData>
+		<ContentTypes>
+
+
+			<ContentType ID="0x01007af066eb14a94977b3e28e7f9d1f7ed6" Name="ListFieldsContentType">
+				<FieldRefs>
+					<FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" />
+					<FieldRef ID="{6aadb856-4224-4f4b-9bcf-7203233d47f2}" Name="LetterType" />
+					<FieldRef ID="{68c102e9-0e92-4865-ab6a-d9cb66742ee7}" Name="ClientAddress_x0028_1_x0029_" />
+					<FieldRef ID="{68865e74-f119-4906-9d3a-9e9d5ac184d6}" Name="ClientAddress_x0028_2_x0029_" />
+					<FieldRef ID="{3486f816-3d91-4ee3-8f40-f410f1e3ef4f}" Name="ClientCity" />
+					<FieldRef ID="{aaeb43e4-734f-4211-84ad-11f1c1e53d16}" Name="ClientState" />
+					<FieldRef ID="{0caf4ea9-a5ad-4b51-9f73-c4744c7ea264}" Name="ClientZip" />
+					<FieldRef ID="{dbe2ed32-5e6d-4827-bd62-bab58d70a7df}" Name="OWPAgreement" />
+					<FieldRef ID="{056c6f61-e90d-4c5e-9247-62ef4830bc9f}" Name="OWPPetName" />
+					<FieldRef ID="{f9c4a769-21d8-4375-a889-0a6332096928}" Name="OWPPlanLevel" />
+					<FieldRef ID="{1e2c78ae-9bd0-44bf-94f9-d749d22e8ac8}" Name="OWPMonthlyPrice" />
+					<FieldRef ID="{429d0b47-0c0e-41e9-afc0-fc1519d82d63}" Name="OWPRenewalDate" />
+					<FieldRef ID="{da9b0f41-4dfa-4dbf-920e-88cb7fecff3b}" Name="MonthlyPaymentDate" />
+					<FieldRef ID="{1b844506-e2fb-41c7-8365-1d43fd1c8d45}" Name="AgentsName" />
+					<FieldRef ID="{62170a94-7686-4025-a8d6-949ef8f465a8}" Name="ClientStartDate" />
+					<FieldRef ID="{42c269ed-4354-4b70-9d00-a81de30194ee}" Name="Numberofpayments0_x002d_30dayspastdue" />
+					<FieldRef ID="{6070e404-0b2d-4d70-9dd0-ec41485a9acc}" Name="Numberofpayments31_x002d_60dayspastdue" />
+					<FieldRef ID="{74d79570-eaff-4883-b879-c37bbec89497}" Name="Numberofpayments61_x002d_90dayspastdue" />
+					<FieldRef ID="{ae3602ff-141a-467c-9934-4897f53a9eab}" Name="Numberofpayments91_x002b_dayspastdue" />
+					<FieldRef ID="{b4e9592a-7957-4a1a-91a8-3bf1684f3029}" Name="DatePaymentwastakeninerror" />
+					<FieldRef ID="{edc75e76-adbe-4b94-81cc-d64a2c882bb8}" Name="ChecktheboxifthiswasreportedtotheCreditBureaus" />
+					<FieldRef ID="{88097cd3-969b-4e73-aab3-4ce0935fdacd}" Name="AmountPaid" />
+					<FieldRef ID="{0861bdfa-ef47-4a8b-b814-9ed84e9e5452}" Name="PaymentDate" />
+					<FieldRef ID="{2834364e-0c7a-4645-a12e-0a5ee3302085}" Name="DateinvoicewascanceledtoCollections" />
+					<FieldRef ID="{1e4f135a-98fe-40b2-a823-5e9924d1c4e2}" Name="FullAmountOwed" />
+					<FieldRef ID="{a8f83d25-b38c-4707-9b52-3a57dc34a120}" Name="SettlementAmount" />
+					<FieldRef ID="{b78801a0-132e-400f-8d5d-553dd815a19d}" Name="SettlementDate" />
+				</FieldRefs>
+			</ContentType>
+			<ContentTypeRef ID="0x01">
+				<Folder TargetName="Item" />
+			</ContentTypeRef>
+			<ContentTypeRef ID="0x0120" />
+		</ContentTypes>
+		<Fields>
+
+			<Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="Client Name" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+			<Field Name="LetterType" ID="{6aadb856-4224-4f4b-9bcf-7203233d47f2}" DisplayName="Letter Type" Type="Choice">
+				<CHOICES>
+					<CHOICE>Token Mapping</CHOICE>
+					<CHOICE>Letter</CHOICE>
+					<CHOICE>Font Size</CHOICE>
+					<CHOICE>General</CHOICE>
+				</CHOICES>
+			</Field>
+			<Field Name="ClientAddress_x0028_1_x0029_" ID="{68c102e9-0e92-4865-ab6a-d9cb66742ee7}" DisplayName="Client Address (1)" Type="Text" />
+			<Field Name="ClientAddress_x0028_2_x0029_" ID="{68865e74-f119-4906-9d3a-9e9d5ac184d6}" DisplayName="Client Address (2)" Type="Text" />
+			<Field Name="ClientCity" ID="{3486f816-3d91-4ee3-8f40-f410f1e3ef4f}" DisplayName="Client City" Type="Text" />
+			<Field Name="ClientState" ID="{aaeb43e4-734f-4211-84ad-11f1c1e53d16}" DisplayName="Client State" Type="Choice">
+				<CHOICES>
+					<CHOICE>AL</CHOICE>
+					<CHOICE>AK</CHOICE>
+					<CHOICE>AZ</CHOICE>
+					<CHOICE>AR</CHOICE>
+					<CHOICE>CA</CHOICE>
+					<CHOICE>CO</CHOICE>
+					<CHOICE>CT</CHOICE>
+					<CHOICE>DE</CHOICE>
+					<CHOICE>FL</CHOICE>
+					<CHOICE>GA</CHOICE>
+					<CHOICE>HI</CHOICE>
+					<CHOICE>ID</CHOICE>
+					<CHOICE>IL</CHOICE>
+					<CHOICE>IN</CHOICE>
+					<CHOICE>IA</CHOICE>
+					<CHOICE>KS</CHOICE>
+					<CHOICE>KY</CHOICE>
+					<CHOICE>LA</CHOICE>
+					<CHOICE>ME</CHOICE>
+					<CHOICE>MD</CHOICE>
+					<CHOICE>MA</CHOICE>
+					<CHOICE>MI</CHOICE>
+					<CHOICE>MN</CHOICE>
+					<CHOICE>MS</CHOICE>
+					<CHOICE>MO</CHOICE>
+					<CHOICE>MT</CHOICE>
+					<CHOICE>NE</CHOICE>
+					<CHOICE>NV</CHOICE>
+					<CHOICE>NH</CHOICE>
+					<CHOICE>NJ</CHOICE>
+					<CHOICE>NY</CHOICE>
+					<CHOICE>NC</CHOICE>
+					<CHOICE>ND</CHOICE>
+					<CHOICE>OH</CHOICE>
+					<CHOICE>OK</CHOICE>
+					<CHOICE>OR</CHOICE>
+					<CHOICE>PA</CHOICE>
+					<CHOICE>RI</CHOICE>
+					<CHOICE>SC</CHOICE>
+					<CHOICE>SD</CHOICE>
+					<CHOICE>TN</CHOICE>
+					<CHOICE>TX</CHOICE>
+					<CHOICE>UT</CHOICE>
+					<CHOICE>VA</CHOICE>
+					<CHOICE>VT</CHOICE>
+					<CHOICE>WA</CHOICE>
+					<CHOICE>WV</CHOICE>
+					<CHOICE>WI</CHOICE>
+					<CHOICE>WY</CHOICE>
+					<CHOICE>DC</CHOICE>
+					<CHOICE>PR</CHOICE>
+				</CHOICES>
+			</Field>
+			<Field Name="ClientZip" ID="{0caf4ea9-a5ad-4b51-9f73-c4744c7ea264}" DisplayName="Client Zip" Type="Text" />
+			<Field Name="OWPAgreement" ID="{dbe2ed32-5e6d-4827-bd62-bab58d70a7df}" DisplayName="OWP Agreement" Type="Text" />
+			<Field Name="OWPPetName" ID="{056c6f61-e90d-4c5e-9247-62ef4830bc9f}" DisplayName="OWP Pet Name" Type="Text" />
+			<Field Name="OWPPlanLevel" ID="{f9c4a769-21d8-4375-a889-0a6332096928}" DisplayName="OWP Plan Level" Type="Text" />
+			<Field Name="OWPMonthlyPrice" ID="{1e2c78ae-9bd0-44bf-94f9-d749d22e8ac8}" DisplayName="OWP Monthly Price" Type="Currency" LCID="1033" Decimals="2" />
+			<Field Name="OWPRenewalDate" ID="{429d0b47-0c0e-41e9-afc0-fc1519d82d63}" DisplayName="OWP Renewal Date" Type="DateTime" />
+			<Field Name="MonthlyPaymentDate" ID="{da9b0f41-4dfa-4dbf-920e-88cb7fecff3b}" DisplayName="Monthly Payment Date" Type="Choice">
+				<CHOICES>
+					<CHOICE>5th</CHOICE>
+					<CHOICE>12th</CHOICE>
+					<CHOICE>19th</CHOICE>
+					<CHOICE>26th</CHOICE>
+				</CHOICES>
+			</Field>
+			<Field Name="AgentsName" ID="{1b844506-e2fb-41c7-8365-1d43fd1c8d45}" DisplayName="Agents Name" Type="Text" />
+			<Field Name="ClientStartDate" ID="{62170a94-7686-4025-a8d6-949ef8f465a8}" DisplayName="Client Start Date" Type="DateTime" />
+			<Field Name="Numberofpayments0_x002d_30dayspastdue" ID="{42c269ed-4354-4b70-9d00-a81de30194ee}" DisplayName="Number of payments 0-30 days past due" Type="Number" />
+			<Field Name="Numberofpayments31_x002d_60dayspastdue" ID="{6070e404-0b2d-4d70-9dd0-ec41485a9acc}" DisplayName="Number of payments 31-60 days past due" Type="Number" />
+			<Field Name="Numberofpayments61_x002d_90dayspastdue" ID="{74d79570-eaff-4883-b879-c37bbec89497}" DisplayName="Number of payments 61-90 days past due" Type="Number" />
+			<Field Name="Numberofpayments91_x002b_dayspastdue" ID="{ae3602ff-141a-467c-9934-4897f53a9eab}" DisplayName="Number of payments 91+ days past due" Type="Number" />
+			<Field Name="DatePaymentwastakeninerror" ID="{b4e9592a-7957-4a1a-91a8-3bf1684f3029}" DisplayName="Date Payment was taken in error" Type="DateTime" />
+			<Field Name="ChecktheboxifthiswasreportedtotheCreditBureaus" ID="{edc75e76-adbe-4b94-81cc-d64a2c882bb8}" DisplayName="Check the box if this was reported to the Credit Bureaus" Type="Boolean" />
+			<Field Name="AmountPaid" ID="{88097cd3-969b-4e73-aab3-4ce0935fdacd}" DisplayName="Amount Paid" Type="Currency" LCID="1033" Decimals="2" />
+			<Field Name="PaymentDate" ID="{0861bdfa-ef47-4a8b-b814-9ed84e9e5452}" DisplayName="Payment Date" Type="DateTime" />
+			<Field Name="DateinvoicewascanceledtoCollections" ID="{2834364e-0c7a-4645-a12e-0a5ee3302085}" DisplayName="Date invoice was canceled to Collections" Type="DateTime" />
+			<Field Name="FullAmountOwed" ID="{1e4f135a-98fe-40b2-a823-5e9924d1c4e2}" DisplayName="Full Amount Owed" Type="Currency" LCID="1033" Decimals="2" />
+			<Field Name="SettlementAmount" ID="{a8f83d25-b38c-4707-9b52-3a57dc34a120}" DisplayName="Settlement Amount" Type="Currency" LCID="1033" Decimals="2" />
+			<Field Name="SettlementDate" ID="{b78801a0-132e-400f-8d5d-553dd815a19d}" DisplayName="Settlement Date" Type="DateTime" />
+		</Fields>
+		<Views>
+
+
+			<View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+				<Toolbar Type="Standard" />
+				<XslLink Default="TRUE">main.xsl</XslLink>
+				<RowLimit Paged="TRUE">30</RowLimit>
+				<ViewFields>
+
+					<FieldRef Name="LinkTitleNoMenu"/>
+				</ViewFields>
+				<Query>
+					<OrderBy>
+
+						<FieldRef Name="Modified" Ascending="FALSE"/>
+					</OrderBy>
+				</Query>
+				<ParameterBindings>
+					<ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+					<ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+					<ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+				</ParameterBindings>
+			</View>
+			<View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+				<Toolbar Type="Standard" />
+				<XslLink Default="TRUE">main.xsl</XslLink>
+				<JSLink>clienttemplates.js</JSLink>
+        <JSLink>/Scripts/lettersAllItems.js</JSLink>
+				<RowLimit Paged="TRUE">30</RowLimit>
+				<ViewFields>
+
+					<FieldRef Name="LinkTitle"/>
+					<FieldRef Name="LetterType" />
+					<FieldRef Name="ClientAddress_x0028_1_x0029_" />
+					<FieldRef Name="ClientAddress_x0028_2_x0029_" />
+					<FieldRef Name="ClientCity" />
+					<FieldRef Name="ClientState" />
+					<FieldRef Name="ClientZip" />
+					<FieldRef Name="OWPAgreement" />
+					<FieldRef Name="OWPPetName" />
+					<FieldRef Name="OWPPlanLevel" />
+					<FieldRef Name="OWPMonthlyPrice" />
+					<FieldRef Name="OWPRenewalDate" />
+					<FieldRef Name="MonthlyPaymentDate" />
+					<FieldRef Name="AgentsName" />
+					<FieldRef Name="ClientStartDate" />
+					<FieldRef Name="Numberofpayments0_x002d_30dayspastdue" />
+					<FieldRef Name="Numberofpayments31_x002d_60dayspastdue" />
+					<FieldRef Name="Numberofpayments61_x002d_90dayspastdue" />
+					<FieldRef Name="Numberofpayments91_x002b_dayspastdue" />
+					<FieldRef Name="DatePaymentwastakeninerror" />
+					<FieldRef Name="ChecktheboxifthiswasreportedtotheCreditBureaus" />
+					<FieldRef Name="AmountPaid" />
+					<FieldRef Name="PaymentDate" />
+					<FieldRef Name="DateinvoicewascanceledtoCollections" />
+					<FieldRef Name="FullAmountOwed" />
+					<FieldRef Name="SettlementAmount" />
+					<FieldRef Name="SettlementDate" />
+				</ViewFields>
+				<Query>
+					<OrderBy>
+
+						<FieldRef Name="ID"/>
+					</OrderBy>
+				</Query>
+				<ParameterBindings>
+					<ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+					<ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+				</ParameterBindings>
+			</View>
+		</Views>
+		<Forms>
+			<Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+			<Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+			<Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+		</Forms>
+	</MetaData>
+</List>

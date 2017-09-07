@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Call_Center_LettersWeb.Services.AppEventReceiver" CodeBehind="AppEventReceiver.svc.cs" %>

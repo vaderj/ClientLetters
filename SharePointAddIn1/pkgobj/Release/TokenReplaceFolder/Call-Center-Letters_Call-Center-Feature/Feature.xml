@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint Add-in Feature" Id="7e288abc-678b-4fff-ba66-3746932f008a" Scope="Web" Title="SharePointAddIn1 Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementFile Location="Pages\LetterTemplate.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.map" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.intellisense.js" />
+    <ElementFile Location="Scripts\clipboard.js" />
+    <ElementFile Location="Scripts\lettersAllItemsUpdate.js" />
+    <ElementFile Location="Scripts\letterInputFormUpdates.js" />
+    <ElementFile Location="Scripts\letterTemplate.js" />
+    <ElementFile Location="Scripts\bootstrap.min.js" />
+    <ElementFile Location="Scripts\lettersAllItems.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementFile Location="Content\bootstrap.min.css" />
+    <ElementFile Location="Content\bootstrap-theme.min.css" />
+    <ElementFile Location="Content\letterTemplate.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementFile Location="Images\Banfield-Logo.jpg" />
+    <ElementFile Location="Images\printHeader.png" />
+    <ElementManifest Location="Letter Configuration Instance\Elements.xml" />
+    <ElementManifest Location="Letter Configuration\Elements.xml" />
+    <ElementFile Location="Letter Configuration\Schema.xml" />
+    <ElementManifest Location="LettersInstance\Elements.xml" />
+    <ElementManifest Location="Letters\Elements.xml" />
+    <ElementFile Location="Letters\Schema.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="Letter Configuration Instance\Elements.xml" />
+        <ElementManifest Location="Letter Configuration\Elements.xml" />
+        <ElementManifest Location="LettersInstance\Elements.xml" />
+        <ElementManifest Location="Letters\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

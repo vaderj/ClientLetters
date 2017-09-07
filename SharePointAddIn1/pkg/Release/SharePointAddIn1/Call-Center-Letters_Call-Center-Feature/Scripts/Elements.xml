@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\clipboard.js" Url="Scripts/clipboard.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lettersAllItemsUpdate.js" Url="Scripts/lettersAllItemsUpdate.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\letterInputFormUpdates.js" Url="Scripts/letterInputFormUpdates.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\letterTemplate.js" Url="Scripts/letterTemplate.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.min.js" Url="Scripts/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\lettersAllItems.js" Url="Scripts/lettersAllItems.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance 
+    Title="Letter Configuration" 
+    OnQuickLaunch="TRUE" 
+    TemplateType="10001" 
+    Url="Lists/Letter Configuration" 
+    Description="Configuration for Letters">
+    <Data>
+        <Rows>
+          <Row>
+            <Field Name="Key">Letter</Field>
+            <Field Name="Title">Credit Reference</Field>
+            <Field Name="Value1">This letter is in regards to ::ClientName:: and their credit history with Banfield Pet Hospital. They have had an account with us since ::ClientStartDate::. Payments are scheduled to be taken from their account on the ::MonthlyPaymentDate:: of each month. According to the records, our mutual client has had ::NumReturnedPayments:: returned payment(s).\n They have been late 0-30 days ::030daysOverdue:: times, 31-60 days ::3160daysOverdue:: times, 61-90 days ::6190daysOverdue:: times and 91+ days ::Over90daysOverdue:: times.</Field>
+          </Row>
+          <Row>
+            <Field Name="Key">Letter</Field>
+            <Field Name="Title">Overdraft Apology</Field>
+            <Field Name="Value1">It has come to our attention that we have submitted payment in error on the date of ::DatePaymentError::. We have stopped this transaction and the bank will show it as pending charge or authorization. This transaction will fall off within 3 – 5 business days. Please accept our sincere apologies for the mistake and inconvenience. If you have any further questions please contact Banfield Pet Hospital at 1-888-322-5951. We look forward to continuing to meet any of your pet care needs.</Field>
+          </Row>
+          <Row>
+            <Field Name="Key">Letter</Field>
+            <Field Name="Title">Paid in full at I.C.S.</Field>
+            <Field Name="Value1">Thank you for choosing Banfield Pet Hospital. This letter is to confirm that payment was received for the above account on ::PaymentDate::, for the amount of ::AmountPaid::. This account had been referred to our third party collections agency, IC Systems. We have notified ICS of the payment and they will update their records to "Paid in Full". ICS will report this payment to the Credit Bureaus. Please be advised it takes 30 to 90 days for this change to be reflected on your Credit Report. Thank you for resolving your account with us. We look forward to the possibility of meeting your pet care needs in the future.</Field>
+          </Row>
+          <Row>
+            <Field Name="Key">Letter</Field>
+            <Field Name="Title">Paid in full - Not at I.C.S.</Field>
+            <Field Name="Value1">This letter is to confirm that payment was received for the above account on ::PaymentDate::, for the amount of ::AmountPaid::. This account was not referred to our third party collections agency. Thank you for resolving your account with us. We look forward to the possibility of meeting your pet care needs in the future.</Field>
+          </Row>
+          <Row>
+            <Field Name="Key">Letter</Field>
+            <Field Name="Title">Sent in error - Credit Bureau Reported</Field>
+            <Field Name="Value1">It has come to our attention that we have sent the above mentioned account to our third party collections agency, IC Systems, in error.\n We have notified IC Systems to remove the debt from your name immediately.\n This debt was reported to the Credit Bureaus but will be removed.\n Please be advised that it takes 30 to 90 days for this correction to reflect on your Credit Report.\n Please accept our sincere apologies for the mistake and inconvenience.\n If you have any further questions please contact Banfield Pet Hospital at 1-888-322-5951.</Field>
+          </Row>
+          <Row>
+            <Field Name="Key">Letter</Field>
+            <Field Name="Title">Send in error - Not reported</Field>
+            <Field Name="Value1">It has come to our attention that we have sent the above mentioned account to our third party collections agency, IC Systems, in error. We have notified IC Systems to remove the debt from your name immediately.\n The debt has not yet been reported to the three Credit Bureaus. Please accept our sincere apologies for the mistake and inconvenience.\n If you have any further questions please contact Banfield Pet Hospital at 1-888-322-5951.</Field>
+          </Row>
+          <Row>
+            <Field Name="Key">Letter</Field>
+            <Field Name="Title">Settlement Offer - Wellness Plan</Field>
+            <Field Name="Value1">This letter is a formal offer of settlement for the above noted account which was cancelled due to nonpayment on ::DateCollectionsCanceled::. Banfield Pet Hospital will accept ::SettlementAmount:: as a settlement. We prefer to resolve this matter with you directly. If you would like to accept this settlement, please respond within 30 days of the date on this letter. You may make a payment free of charge over the phone at 1-888-322-5951. Please note that if this settlement balance is not paid in full within the 30 days of this letter, the offer will be revoked and the full amount of ::FullAmountOwed:: plus the collections fee will be due.</Field>
+          </Row>
+          <Row>
+            <Field Name="Key">Letter</Field>
+            <Field Name="Title">Settled - Not at I.C.S.</Field>
+            <Field Name="Value1">This letter is to confirm that payment was received for the above account on ::SettlementDate::, for the settlement amount of ::SettlementAmount::. This account was not referred to our third party collections agency. Thank you for resolving your account with us. We look forward to the possibility of meeting your pet care needs in the future.</Field>
+          </Row>
+          <Row>
+            <Field Name="Key">Letter</Field>
+            <Field Name="Title">Settled at I.C.S.</Field>
+            <Field Name="Value1">::OWPPlanLevel:: This letter is to confirm that payment was received for the above account on ::SettlementDate::, for the settlement amount of ::SettlementAmount::. This account had been referred to our third party collections agency, IC Systems. We have notified ICS of the payment and they will update their records to "Settled". ICS will report this payment to the Credit Bureaus. Please be advised it takes 30 to 90 days for this change to be reflected on your Credit Report. Thank you for resolving your account with us. We look forward to the possibility of meeting your pet care needs in the future.</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::ClientName::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Title</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::ClientAddress1::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Client_x0020_Address_x0020__x002</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::ClientAddress2::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Client_x0020_Address_x0020__x0020</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::ClientCity::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Client_x0020_City</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::ClientState::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Client_x0020_State</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::ClientZip::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Client_x0020_Zip</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::OWPAgreement::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">OWP_x0020_Agreement</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::OWPPetName::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">OWP_x0020_Pet_x0020_Name</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::OWPPlanLevel::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">OWP_x0020_Plan_x0020_Level</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::OWPMonthlyPrice::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">OWP_x0020_Monthly_x0020_Price</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::OWPRenewalDate::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">OWP_x0020_Renewal_x0020_Date</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::MonthlyPaymentDate::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Monthly_x0020_Payment_x0020_Date</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::ClientStartDate::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Client_x0020_Start_x0020_Date</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::030daysOverdue::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Number_x0020_of_x0020_payments_x</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::3160daysOverdue::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Number_x0020_of_x0020_payments_x0</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::6190daysOverdue::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Number_x0020_of_x0020_payments_x1</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::Over90daysOverdue::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Number_x0020_of_x0020_payments_x2</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::DatePaymentError::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Date_x0020_Payment_x0020_was_x00</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::ReportedToBureaus::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Check_x0020_the_x0020_box_x0020_</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::AmountPaid::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Amount_x0020_Paid</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::PaymentDate::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Payment_x0020_Date</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::DateCollectionsCanceled::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Date_x0020_invoice_x0020_was_x00</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::FullAmountOwed::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Full_x0020_Amount_x0020_Owed</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::SettlementAmount::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Settlement_x0020_Amount</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::SettlementDate::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Settlement_x0020_Date</Field>
+          </Row>
+          <Row>
+            <Field Name="Title">::LetterType::</Field>
+            <Field Name="Key">Token Mapping</Field>
+            <Field Name="Value1">Letter_x0020_Type</Field>
+          </Row>
+        </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

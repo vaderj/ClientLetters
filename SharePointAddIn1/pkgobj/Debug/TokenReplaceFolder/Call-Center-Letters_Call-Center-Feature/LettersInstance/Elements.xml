@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Letters" OnQuickLaunch="TRUE" TemplateType="10002" Url="Lists/Letters" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="LetterType">Overdraft Apology</Field>
+          <Field Name="Title">Client Name</Field>
+          <Field Name="ClientAddress_x0028_1_x0029_">123 4th ave</Field>
+          <Field Name="ClientCity">Client Name</Field>
+          <Field Name="ClientState">CA</Field>
+          <Field Name="ClientZip">12345</Field>
+          <Field Name="OWPAgreement">sdfg876</Field>
+          <Field Name="OWPPetName">Pet Name</Field>
+          <Field Name="OWPPlanLevel">sdfg876</Field>
+          <Field Name="OWPMonthlyPrice">50</Field>
+          <Field Name="OWPRenewalDate">5/5/2015</Field>
+          <Field Name="MonthlyPaymentDate">5th</Field>
+          <Field Name="AgentsName">Agent</Field>
+          <Field Name="ClientStartDate">6/6/2016</Field>
+          <Field Name="Numberofpayments0_x002d_30dayspastdue">1</Field>
+          <Field Name="Numberofpayments31_x002d_60dayspastdue">1</Field>
+          <Field Name="Numberofpayments61_x002d_90dayspastdue">1</Field>
+          <Field Name="Numberofpayments91_x002b_dayspastdue">3</Field>
+          <Field Name="DatePaymentwastakeninerror">7/7/2017</Field>
+          <Field Name="AmountPaid">10</Field>
+          <Field Name="PaymentDate">8/8/2018</Field>
+          <Field Name="DateinvoicewascanceledtoCollections">9/9/2019</Field>
+          <Field Name="FullAmountOwed">40</Field>
+          <Field Name="SettlementAmount">10</Field>
+          <Field Name="SettlementDate">5/4/2013</Field>
+        </Row>
+      </Rows>
+    </Data>
+      </ListInstance>
+</Elements>

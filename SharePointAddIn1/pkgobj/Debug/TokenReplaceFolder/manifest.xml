@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="92bdd32f-fc0f-45c3-b0e3-23b2bed17cfe" SharePointProductVersion="16.0">
+  <FeatureManifests>
+    <FeatureManifest Location="Call-Center-Letters_Call-Center-Feature\Feature.xml" />
+  </FeatureManifests>
+</Solution>
